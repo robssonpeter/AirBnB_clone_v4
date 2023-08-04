@@ -154,7 +154,8 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Peter Mgembe - [Github](https://github.com/robssonpeter) / [Twitter](https://twitter.com/robssonpeter)  
+Peter Mgembe - [Github](https://github.com/robssonpeter) / [Twitter](https://twitter.com/robssonpeter)
+Ikundwila Mwambona - [Github](https://github.com/Iku96) / [Twitter](https://twitter.com/Iku__101)
 
 
 ## License
