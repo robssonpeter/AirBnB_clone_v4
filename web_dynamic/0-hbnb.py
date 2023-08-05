@@ -9,7 +9,7 @@ from models import storage
 app = Flask(__name__)
 
 
-@app.route('/hbnb_filters', strict_slashes=False)
+@app.route('/0-hbnb/', strict_slashes=False)
 def filters():
     """display a HTML page like 6-index.html from static"""
     states = storage.all("State").values()
