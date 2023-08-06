@@ -12,6 +12,11 @@ $(document).ready(() => {
       delete selectedAmenities[id];
     }
     amString = Object.values(selectedAmenities).join(', ');
-    $('div.amenities h4').text(amString);
+    if(amString.length){
+        $('div.amenities h4').text(amString);
+    }else{
+        $('div.amenities h4').html("&nbsp;");
+    }
+    
   });
 });
