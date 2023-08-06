@@ -18,4 +18,19 @@ $(document).ready(() => {
       $('div.amenities h4').html('&nbsp;');
     }
   });
+
+  $.ajax({
+    url: 'http://0.0.0.0:5001/api/v1/status',
+    method: 'GET',
+    success: function (response) {
+      if (response == 'OK') {
+        $('div#api_status').addClass('available');
+      } else {
+        $('div#api_status').removeClass('available');
+      }
+    },
+    error: function (error) {
+      console.error(error);
+    }
+  });
 });
